@@ -1,8 +1,11 @@
+###AULA04 - 08/10/2024###
+
 ###ESTRUTURAS DE CONDIÇÃO ###
 
-# IF   ELSE   X SWITCH CASE
+# IF ELSE   X   SWITCH CASE
 
 #1) IF ELSE 
+'''
 mes=int(input('Digite um número entre 1 e 12:'))
 
 if mes==1:
@@ -32,12 +35,7 @@ elif mes==12:
 else:
     print('Por favor forneça um número válido.')
     mes=int(input('Digite um número entre 1 e 12:'))
-
-#2) SWITCH CASE (não é nativo do paython)
-    
-mes=int(input('Digite um número entre 1 e 12: '))
-
-
+'''
 
 #Atividades práticas com if/else e switch/case:
 
@@ -53,8 +51,18 @@ mes=int(input('Digite um número entre 1 e 12: '))
 # programa para ler: a marcação do odômetro (km) no início do dia, a marcação (km) no final do dia, o número de litros de combustível gasto e o 
 # valor total (R$) recebido dos passageiros. Calcular e escrever: a média do consumo em km/L e o lucro (líquido) do dia;
 
-# 4) Escreva um programa que leia o código de origem de um produto e imprima na tela a região de sua procedência, conforme a tabela que foi passada.
- 
+# 4) Escreva um programa que leia o código de origem de um produto e imprima na tela a região de sua procedência, conforme a tabela que foi passada:
+
+'''
+Código 1 : Região Sul
+Código 2: Região Norte
+Código 3: Região Leste
+Código 4: Região Oeste
+Códigos 5 ou 6: Região Nordeste
+Códigos 7, 8 ou 9: Região Sudeste
+Código 10: Região Centro-oeste 
+Código 11: Região Noroeste'''
+
 # Observação: caso o código não seja nenhum dos especificados, o produto deve ser encarado como “Importado”;
 
 # 5) Escreva um programa que leia as notas das duas avaliações normais e a nota da avaliação optativa dos estudantes de uma turma. Caso o estudante não tenha feito a optativa, deve ser fornecido o valor -1. Calcular a média do semestre considerando que a prova optativa substitui a 
@@ -63,3 +71,4 @@ mes=int(input('Digite um número entre 1 e 12: '))
 # Aprovado: média >= 6.0, Reprovado: média < 3.0, Exame: média >= 3.0 e < 6.0;
 
 # 6) Escreva um programa para ler um valor e escrever se é positivo ou negativo. Considere o valor zero como positivo.
+
